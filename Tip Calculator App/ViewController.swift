@@ -39,10 +39,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button9(_ sender: Any) {
-        var button = billAmountTextField.text!
-        
-           totalLabel.text = button
-        }
+        let button = billAmountTextField.text!
+        totalLabel.text = button
     }
 }
 
